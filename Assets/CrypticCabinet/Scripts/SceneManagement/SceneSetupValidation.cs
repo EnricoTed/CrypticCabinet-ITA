@@ -45,7 +45,7 @@ namespace CrypticCabinet.SceneManagement
         private IEnumerator AttemptToLoadSceneModel()
         {
             UISystem.Instance.HideNetworkSelectionMenu();
-            UISystem.Instance.ShowMessage("Attempting to load your room, please wait...");
+            UISystem.Instance.ShowMessage("Caricamento della tua stanza in corso, attendere...");
             do
             {
                 yield return null;

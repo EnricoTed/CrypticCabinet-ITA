@@ -75,7 +75,7 @@ namespace CrypticCabinet.Colocation
         private async void Init()
         {
             // Initialize colocation regardless on single or multiplayer session.
-            UISystem.Instance.ShowMessage("Waiting for colocation to be ready, please wait...", null, -1);
+            UISystem.Instance.ShowMessage("Preparazione colocazione in corso, attendere...", null, -1);
             m_ovrCameraRigTransform = FindObjectOfType<OVRCameraRig>().transform;
 
 #if !UNITY_EDITOR

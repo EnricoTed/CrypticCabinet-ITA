@@ -142,6 +142,7 @@ Material:
     - _InOut: 1
     - _Max: 1.14
     - _Metallic: 0
+    - _Metallic_Multiply: 1
     - _Min: 0.55
     - _Noise: 0.19
     - _ObjectSizeMultiplier: 1
@@ -150,6 +151,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Roughness_Multiply: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

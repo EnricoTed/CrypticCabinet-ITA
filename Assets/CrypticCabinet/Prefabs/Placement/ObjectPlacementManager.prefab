@@ -871,7 +871,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Confirm Room Layout is valid.
+  m_text: Conferma il posizionamento.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
   m_sharedMaterial: {fileID: -6652610950869467651, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
@@ -2389,13 +2389,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "If you see red cubes, please pinch or select them to move and drag them
-    to a new location so that they are blue or green.\r\n\r\nSome items must be placed
-    on the wall or floor and should remain in reach.\r\n\r\nMake sure you can reach
-    all the blue boxes with your hands, before the experience starts.\r"
+  m_text: "Se vedi cubi rossi, selezionali per trascinarli e riposizionarli in un
+    altro punto della stanza finch\xE9 non diventano blu o verdi.\n\r\nAlcuni oggetti
+    devono essere posizionati necessariamente sul pavimento o sui muri e devono rimanere
+    a portata di mano.\r\n\r\nAssicurati di poter raggiungere ogni cubo blu con le
+    tue mani prima di continuare.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
-  m_sharedMaterial: {fileID: -6652610950869467651, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3ec6f4cbbc0787241b7ae9d340d931f1, type: 2}
+  m_sharedMaterial: {fileID: 9137762838549616999, guid: 3ec6f4cbbc0787241b7ae9d340d931f1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2419,10 +2420,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14.4
-  m_fontSizeBase: 19
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 13.8
   m_fontSizeMax: 18.4
   m_fontStyle: 1
@@ -2434,7 +2435,7 @@ MonoBehaviour:
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
+  m_charWidthMaxAdj: 17.39
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
@@ -3173,7 +3174,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Shuffle
+  m_text: 'Riposiziona tutto
+
+    casualmente'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
   m_sharedMaterial: {fileID: -6652610950869467651, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
@@ -3200,10 +3203,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.5
-  m_fontSizeBase: 36
+  m_fontSize: 0.35
+  m_fontSizeBase: 0.35
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0.5
   m_fontStyle: 0

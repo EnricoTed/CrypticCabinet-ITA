@@ -79,7 +79,7 @@ namespace CrypticCabinet.GameManagement
                 return;
             }
 
-            UISystem.Instance.ShowMessage("Analyzing the room.\nPlease wait...", null, -1);
+            UISystem.Instance.ShowMessage("Analisi della stanza in corso.\nAttendere...", null, -1);
             m_sceneUnderstanding.SetActive(true);
             if (m_waitForSceneUnderstandingCoroutine != null)
             {
@@ -159,7 +159,7 @@ namespace CrypticCabinet.GameManagement
                 m_waitForSceneUnderstandingCoroutine = null;
             }
             
-            UISystem.Instance.ShowMessage("No room found.\nReturning to main menu...", RestartGameplay, 3);
+            UISystem.Instance.ShowMessage("Nessuna stanza trovata.\nRitorno al menu' principale...", RestartGameplay, 3);
         }
 
         /// <summary>

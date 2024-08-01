@@ -212,7 +212,7 @@ namespace CrypticCabinet.Photon
         {
             if (string.IsNullOrWhiteSpace(m_chosenRoomName))
             {
-                UISystem.Instance.ShowMessage("Enter room code to join", ShowNetworkSelectionMenu);
+                UISystem.Instance.ShowMessage("Inserisci codice stanza per unirti", ShowNetworkSelectionMenu);
             }
             else
             {
@@ -235,8 +235,8 @@ namespace CrypticCabinet.Photon
 
             UISystem.Instance.ShowMessage(
                 IsMultiplayerSession ?
-                    "Connecting to Photon, please wait..." :
-                    "Preparing single player session, please wait...");
+                    "Connessione a Photon in corso, attendere..." :
+                    "Preparazione sessione singola in corso, attendere...");
 
             ColocationDriverNetObj.OnColocationCompletedCallback += OnColocationReady;
             ColocationDriverNetObj.OnColocationSkippedCallback += OnColocationSkipped;
@@ -295,7 +295,7 @@ namespace CrypticCabinet.Photon
                 Instance.HostDisconnectAllFromRoom();
             }
 
-            await RestartFromMainMenu("You Left the Room");
+            await RestartFromMainMenu("Hai lasciato la stanza");
         }
 
         #region Colocation Callback
@@ -304,7 +304,7 @@ namespace CrypticCabinet.Photon
         {
             if (IsMultiplayerSession)
             {
-                UISystem.Instance.ShowMessage(success ? "Colocation Ready, please wait..." : "Colocation Failed!");
+                UISystem.Instance.ShowMessage(success ? "Colocazione pronta, attendere" : "Colocazione fallita!");
             }
         }
 
@@ -361,8 +361,8 @@ namespace CrypticCabinet.Photon
                 // Show a popup with OK button with the generated room name.
                 // This will be used by the Host to invite guest users to join the game.
                 UISystem.Instance.ShowMessageWithOneButton(
-                    $"Game session created, use the following room code to invite other users: {runner.SessionInfo.Name}",
-                    "Confirm", () =>
+                    $"Sessione di gioco creata, utilizza il seguente codice per invitare altri giocatori: {runner.SessionInfo.Name}",
+                    "Conferma", () =>
                     {
                         // The subscribers of this event should take care for spawning the
                         // other relevant network objects, including the ones for colocation.
@@ -456,13 +456,13 @@ namespace CrypticCabinet.Photon
             {
                 if (!IsMultiplayerSession)
                 {
-                    UISystem.Instance.ShowMessage("Preparing room setup, please wait...");
+                    UISystem.Instance.ShowMessage("Arredamento stanza in corso, attendere...");
                 }
                 m_onConnectedToRoom?.Invoke();
             }
             else
             {
-                var errorMsg = $"Connection failed, please make sure to have access to Internet.\nFailure reason: {joined.ShutdownReason}";
+                var errorMsg = $"Connessione fallita, controllare accesso Internet.\nErrore: {joined.ShutdownReason}";
                 Debug.LogError(errorMsg);
                 UISystem.Instance.ShowMessage(errorMsg, ShowNetworkSelectionMenu);
                 m_onConnectionFailed?.Invoke();
@@ -577,8 +577,8 @@ namespace CrypticCabinet.Photon
                 // check if the desired game session is available and accessible.
                 // If the user clicks on the button "Back", the guest leaves the lobby.
                 UISystem.Instance.ShowMessageWithOneButton(
-                    $"Joined lobby for game '{roomToSearch}', waiting for game session to start...",
-                    "Back",
+                    $"Sei dentro alla stanza '{roomToSearch}', attesa di inizio sessione di gioco...",
+                    "Torna indietro",
                     () =>
                     {
                         GuestLeaveLobby();
@@ -588,7 +588,7 @@ namespace CrypticCabinet.Photon
             }
             else
             {
-                var errorMsg = $"Connection failed, please make sure to have access to Internet.\nFailure reason: {result.ShutdownReason}";
+                var errorMsg = $"Connessione fallita, controllare accesso Internet.\nErrore: {result.ShutdownReason}";
                 Debug.LogError(errorMsg);
                 UISystem.Instance.ShowMessage(errorMsg, ShowNetworkSelectionMenu);
                 m_onConnectionFailed?.Invoke();
@@ -629,7 +629,7 @@ namespace CrypticCabinet.Photon
 
                             UISystem.Instance.HideAll();
                             UISystem.Instance.ShowMessage(
-                                $"Joining game session of room '{runner.SessionInfo.Name}', please wait...");
+                                $"Entrata in stanza '{runner.SessionInfo.Name}' in corso, attendere...");
 
                             var args = new StartGameArgs
                             {
@@ -649,7 +649,7 @@ namespace CrypticCabinet.Photon
                             var joined = await Runner.StartGame(args);
                             if (!joined.Ok)
                             {
-                                var errorMsg = $"Unable to join game session of room, reason: {joined.ShutdownReason}";
+                                var errorMsg = $"Impossibile unirsi alla stanza, errore: {joined.ShutdownReason}";
                                 Debug.LogError(errorMsg);
                                 UISystem.Instance.HideAll();
                                 UISystem.Instance.ShowMessage(errorMsg, ShowNetworkSelectionMenu);
@@ -670,15 +670,15 @@ namespace CrypticCabinet.Photon
                         {
                             UISystem.Instance.HideAll();
                             GuestLeaveLobby();
-                            UISystem.Instance.ShowMessage("The game already started, joining after is forbidden. " +
-                                                          "Leaving lobby.", ShowNetworkSelectionMenu);
+                            UISystem.Instance.ShowMessage("Impossibile unirsi: la sessione di gioco e' gia' iniziata." +
+                                                          "Uscita in corso.", ShowNetworkSelectionMenu);
                             break;
                         }
                     case GameSessionStatus.DISCONNECT_ALL_GUESTS:
                         {
                             GuestLeaveLobby();
                             UISystem.Instance.ShowMessage(
-                                "The game just finished, joining after is forbidden. Leaving lobby.", ShowNetworkSelectionMenu);
+                                "Impossibile unirsi: la sessione di gioco e' finita." + "Uscita in corso.", ShowNetworkSelectionMenu);
                             break;
                         }
                     default:
@@ -692,7 +692,7 @@ namespace CrypticCabinet.Photon
                 // Game session not found
                 UISystem.Instance.HideAll();
                 UISystem.Instance.ShowMessage(
-                    $"The requested room was not found or no longer available: {m_chosenRoomName}",
+                    $"La stanza richiesta non e' stata trovata o non era disponibile: {m_chosenRoomName}",
                     () =>
                     {
                         GuestLeaveLobby();
@@ -732,7 +732,7 @@ namespace CrypticCabinet.Photon
                 if (gameSessionStatus == GameSessionStatus.DISCONNECT_ALL_GUESTS)
                 {
                     // The Host disconnected, as a guest we need to leave the room and disconnect.
-                    await RestartFromMainMenu("The host disconnected, leaving the game.");
+                    await RestartFromMainMenu("La stanza è stata disconnessa, uscita in corso.");
                 }
             }
         }
@@ -753,7 +753,7 @@ namespace CrypticCabinet.Photon
         public void OnConnectedToServer(NetworkRunner runner)
         {
             UISystem.Instance.ShowMessage(
-                $"Connected To Photon Session '{runner.SessionInfo.Name}', please wait...");
+                $"Connesso a sessione Photon '{runner.SessionInfo.Name}', attendere...");
 
             if (IsMasterClient())
             {
@@ -817,13 +817,13 @@ namespace CrypticCabinet.Photon
                     {
                         // The Host disconnected, as a guest we need to leave the room and disconnect.
                         GuestLeaveLobby();
-                        UISystem.Instance.ShowMessage("The host disconnected, leaving the game.", ShowNetworkSelectionMenu);
+                        UISystem.Instance.ShowMessage("La stanza è stata disconnessa, uscita in corso.", ShowNetworkSelectionMenu);
                     }
                 }
                 else
                 {
                     GuestLeaveLobby();
-                    UISystem.Instance.ShowMessage("The game session was terminated, leaving the game.", ShowNetworkSelectionMenu);
+                    UISystem.Instance.ShowMessage("La sessione è terminata, uscita in corso.", ShowNetworkSelectionMenu);
                 }
             }
         }

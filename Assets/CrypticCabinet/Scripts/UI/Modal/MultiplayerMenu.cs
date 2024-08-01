@@ -60,7 +60,7 @@ namespace CrypticCabinet.UI.Modal
                 else
                 {
                     UISystem.Instance.HideNetworkSelectionMenu();
-                    UISystem.Instance.ShowMessage("You need to specify a room code to join!", () =>
+                    UISystem.Instance.ShowMessage("Devi inserire un codice stanza per unirti!", () =>
                     {
                         PhotonConnector.Instance.ShowNetworkSelectionMenu();
                     });
@@ -68,7 +68,7 @@ namespace CrypticCabinet.UI.Modal
             }
             else
             {
-                Debug.LogError("m_roomNameForGuest not set!");
+                Debug.LogError("m_roomNameForGuest non trovata!");
             }
         }
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.35895914, g: 0.3117824, b: 0.2776817, a: 1}
+  m_IndirectSpecularColor: {r: 0.36013132, g: 0.31253764, b: 0.27849615, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1374,6 +1374,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 355593260834629703, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Menu' Principale
+      objectReference: {fileID: 0}
+    - target: {fileID: 355593260834629703, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 766077757515443748, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Calibrazione Stanza
+      objectReference: {fileID: 0}
+    - target: {fileID: 766077757515443748, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontSize
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 766077757515443748, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 766077757515443748, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 938335562185600127, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1389,6 +1413,18 @@ PrefabInstance:
     - target: {fileID: 938335562185600127, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001692280854231784, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Torna Indietro
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001692280854231784, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001692280854231784, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1229692308534886681, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1407,6 +1443,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1238697039643545514, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238697039643545514, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1430,6 +1470,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1504136334126815111, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: "<color=#2693ff><font=\"Montserrat-Bold SDF\">Meta</font></color>\n\nAlexandre
+        Thivierge\r\nDanny Moon \r\nHarish Kantamneni \r\nJason Meisel \r\nZac Drake
+        \r\n\n\r<color=#2693ff><font=\"Montserrat-Bold SDF\">Paperpixels\r</font></color>\n\nEnrico
+        Tedaldi\nStefano Ledda\n\n<color=#2693ff><font=\"Montserrat-Bold SDF\">Magnopus\r</font></color>\n\n<font=\"Montserrat-Bold
+        SDF\">Ingegneria\r</font>\nAlessio Regalbuto\r\nDouglas Cooper-Hind\r\nGarrett
+        Hickey\nMaria Nerla\r\nRenato Kuursta\r\n\r\n<font=\"Montserrat-Bold SDF\">Dipartimento
+        di Design\r</font>\nDaryl Atkins\r\nJustin Manning \r\nTeresa Fitzgerald\r\nTommy
+        Honton\r\n\r\n<font=\"Montserrat-Bold SDF\">Dipartimento Artistico\r</font>\nBear
+        Winter-Perreau\r\nDiana Kasavetova\r\nJi Young Han\r\nLiesbet Segaert\r\nNacho
+        Del Hierro\r\nSidney Olluyn\r\n\r\n<font=\"Montserrat-Bold SDF\">Audio\r</font>\nAdam
+        Frost\r\n\r\n<font=\"Montserrat-Bold SDF\">Controllo Qualita'\r</font>\nKatie
+        Lafaw\r\nKirsty Pinkerton\r\nScott Smith\r\nYardan Cohen\r\n\r\n<font=\"Montserrat-Bold
+        SDF\">Produzione\r</font>\nDaisy Leak\r\nPeter Hughes\r\n\n<color=#ffa526><font=\"Montserrat-Bold
+        SDF\">Tecnologia\r\r</font></color>\nVersione Unity 2022.3.16f1 LTS\r\nMeta
+        SDK\nPhoton Fusion\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504136334126815111, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ec6f4cbbc0787241b7ae9d340d931f1, type: 2}
+    - target: {fileID: 1504136334126815111, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 9137762838549616999, guid: 3ec6f4cbbc0787241b7ae9d340d931f1, type: 2}
+    - target: {fileID: 1504136334126815111, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1507062347615219333, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: _audioClips.Array.size
       value: 2
@@ -1470,6 +1540,18 @@ PrefabInstance:
       propertyPath: _audioClips.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: 4277ed2a113cc634194fbe98b2182845, type: 3}
+    - target: {fileID: 1732869620122972627, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Unisciti a una stanza
+      objectReference: {fileID: 0}
+    - target: {fileID: 1732869620122972627, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontSize
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198431900232399278, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: MULTIGIOCATORE
+      objectReference: {fileID: 0}
     - target: {fileID: 2267756436927127482, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1526,6 +1608,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -150
       objectReference: {fileID: 0}
+    - target: {fileID: 2784734228772463322, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2816750162372396380, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Inserisci codice stanza per unirti
+      objectReference: {fileID: 0}
     - target: {fileID: 2930014561641625465, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1573,6 +1663,14 @@ PrefabInstance:
     - target: {fileID: 3158840875644725748, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404849017966472796, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Giocatore Singolo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404849017966472796, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 3452747298969719117, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_IsActive
@@ -1626,6 +1724,24 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -15.800002
       objectReference: {fileID: 0}
+    - target: {fileID: 4109822594387632567, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: "Risolvi l\u2019escape room in realt\xE0 mista per aiutare il Dipartimento
+        delle Meraviglie Temporali a ristabilire la connessione con la misteriosa
+        Credenza del Tempo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109822594387632567, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ec6f4cbbc0787241b7ae9d340d931f1, type: 2}
+    - target: {fileID: 4109822594387632567, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 9137762838549616999, guid: 3ec6f4cbbc0787241b7ae9d340d931f1, type: 2}
+    - target: {fileID: 4109822594387632567, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4417526064496558989, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1641,6 +1757,22 @@ PrefabInstance:
     - target: {fileID: 4417526064496558989, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5011317512072844245, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Crediti
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128752800225665884, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Ospita
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221299228607451723, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Multigiocatore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828687085291140271, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1133.2
       objectReference: {fileID: 0}
     - target: {fileID: 5990122596063020027, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1670,6 +1802,24 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6467061241337185464, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: "Risolvi l\u2019escape room in realt\xE0 mista per aiutare il Dipartimento
+        delle Meraviglie Temporali a ristabilire la connessione con la misteriosa
+        Credenza del Tempo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467061241337185464, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ec6f4cbbc0787241b7ae9d340d931f1, type: 2}
+    - target: {fileID: 6467061241337185464, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 9137762838549616999, guid: 3ec6f4cbbc0787241b7ae9d340d931f1, type: 2}
+    - target: {fileID: 6467061241337185464, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6469633820278861392, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: _audioClips.Array.size
       value: 2
@@ -1725,6 +1875,14 @@ PrefabInstance:
     - target: {fileID: 6836237212636430949, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864305986953737874, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: ESCI DAL GIOCO
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864305986953737874, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 6897282178403722352, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1741,6 +1899,26 @@ PrefabInstance:
     - target: {fileID: 6897282178403722352, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7050424232262445430, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7050424232262445430, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7050424232262445430, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7050424232262445430, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056014167706953436, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_text
+      value: Torna Indietro
       objectReference: {fileID: 0}
     - target: {fileID: 7255549295236070695, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1937,6 +2115,10 @@ PrefabInstance:
     - target: {fileID: 8829433263428864501, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8844797813033301868, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 8851655837912426044, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_IsActive

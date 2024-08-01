@@ -1016,7 +1016,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start Game!
+  m_text: Inizia!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
   m_sharedMaterial: {fileID: -6652610950869467651, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
@@ -2267,11 +2267,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Waiting for guests to join: {ROOM}
+  m_text: 'In attesa che tutti si uniscano a: {ROOM}
 
 
-    Once everyone joined, press "Start
-    Game"'
+    Quando si sono uniti tutti,
+    premi "Inizia!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
   m_sharedMaterial: {fileID: -6652610950869467651, guid: 171ffc2c8ef8c6342957bb13c6885e71, type: 2}
