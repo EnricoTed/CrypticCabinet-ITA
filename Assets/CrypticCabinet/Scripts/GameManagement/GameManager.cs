@@ -194,6 +194,11 @@ namespace CrypticCabinet.GameManagement
             InitializeCurrentGameplayPhase();
         }
 
+        public void RestartTheGame()
+        {
+            GoToGameplayPhase(2);
+        }
+
         /// <summary>
         ///     Initializes the current gameplay phase, if not initialized yet.
         /// </summary>
