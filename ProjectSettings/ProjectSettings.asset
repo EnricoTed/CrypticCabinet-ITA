@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Paperpixels
-  productName: Cryptic Cabinet
+  productName: Cryptic Cabinet PPX
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -140,10 +140,12 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 1.0.3
+  bundleVersion: 1.0.01
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 11400000, guid: b9fd417b58a9be746a5f39f66a703832, type: 2}
+  - {fileID: -4458284507104142693, guid: 506454957f4a3b04999e64f068653335, type: 2}
+  - {fileID: 11400000, guid: c7f2d328c2450914ea9551bf9fdc592f, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -164,7 +166,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.Paperpixels.crypticcabinet
+    Android: com.Paperpixels.crypticPPX
     Standalone: com.samples.crypticcabinet
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
@@ -173,7 +175,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 6
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 32
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0

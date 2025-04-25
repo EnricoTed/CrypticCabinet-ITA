@@ -2355,9 +2355,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6467061241337185464, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_text
-      value: "Risolvi l\u2019escape room in realt\xE0 mista per aiutare il Dipartimento
-        delle Meraviglie Temporali a ristabilire la connessione con la misteriosa
-        Credenza del Tempo."
+      value: "Risolvi l\u2019escape room in realt\xE0 mista per aiutare AURA a ristabilire
+        i parametri della sua Intelligenza Artificiale."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467061241337185464, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_margin.z
+      value: 41.072113
       objectReference: {fileID: 0}
     - target: {fileID: 6467061241337185464, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_fontAsset
@@ -2522,6 +2525,14 @@ PrefabInstance:
     - target: {fileID: 7621061207082334462, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879772799927823187, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879772799927823187, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -284
       objectReference: {fileID: 0}
     - target: {fileID: 7938576457529543590, guid: a37155f7bf534ad489b9a243e0f52256, type: 3}
       propertyPath: m_AnchorMax.y
